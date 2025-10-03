@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift}",
+            "name": "Debug GildedRoseApp",
+            "program": "${workspaceFolder:swift}/.build/debug/GildedRoseApp",
+            "preLaunchTask": "swift: Build Debug GildedRoseApp"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift}",
+            "name": "Release GildedRoseApp",
+            "program": "${workspaceFolder:swift}/.build/release/GildedRoseApp",
+            "preLaunchTask": "swift: Build Release GildedRoseApp"
+        }
+    ]
+}
